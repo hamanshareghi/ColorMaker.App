@@ -46,6 +46,7 @@ public partial class MainPage : ContentPage
         sldBlue.Value = color.Blue;
         SetColor(color);
         isRandom = false;
+
     }
 
     private async void ImageButton_OnClicked(object sender, EventArgs e)
